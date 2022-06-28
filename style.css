@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+    font-family: var(--fonte1);
+
+}
+header{
+    background-color: rgb(1, 20, 4);
+    color: white;
+    text-align: center;
+}
+h1{
+    padding-top: 20px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    padding-bottom: 16px;
+}
+header > p{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(1, 26, 6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 15vh;
+    padding-bottom: 17vh;
+    line-height: 2.5em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 1.2em;
+}
+section.normal{
+background-color: rgb(23, 150, 74);
+color: black;
+text-shadow: 0.5px 0.5px 0px black;
+}
+section.imagem{
+    background-color: rgba(83, 78, 78, 0.144);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
+    background-attachment: fixed;
+    text-shadow: 5px 5px 0px black;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 400px;
+    text-shadow: 1px 1px 0px black;
+    border-radius: 10px;
+}
+section > p{
+    padding-bottom: 2em;
+}
+section#img01{
+background-image: url(imagens/caveira003.jpg);
+background-position: center center;
+background-size: cover;
+}
+section#img02{
+    background-size: cover;
+background-image: url(imagens/caveira004.png);
+background-position: center  center;
+}
